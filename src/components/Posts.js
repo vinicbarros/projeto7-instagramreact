@@ -11,7 +11,7 @@ const post_Profile = [
   },
   {
     name: "netflix",
-    profile_img: "assets/img/nlogo.jpg",
+    profile_img: "assets/img/nlogo.png",
     posted_img: "assets/img/netflix.jpg",
   },
 ];
