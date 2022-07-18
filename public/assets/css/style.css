@@ -277,6 +277,35 @@ footer {
     font-size: 22px;
 }
 
+#content .post-column .post-bot .post-views ion-icon[name=heart] {
+    fill: rgb(187, 42, 42);
+    animation: 2s like-heart-animation ease-in-out 
+}
+
+@keyframes like-heart-animation {
+    0%,
+    to {
+      opacity: 0;
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    }
+    15% {
+      opacity: 0.9;
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+    30% {
+      -webkit-transform: scale(0.95);   
+      transform: scale(0.95);
+    }
+    45%,
+    80% {
+      opacity: 0.9;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+
 #content .post-column .post-bot .post-likes {
     display: flex;
     align-items: center;
@@ -346,6 +375,7 @@ footer {
     font-weight: 300;
     font-size: 14px;
     line-height: 16px;
+    color: #8E8E8E;
 }
 
 #content .sidebar .follow-bar .sugestions {
@@ -525,7 +555,7 @@ footer {
 
     #content .post-column .post .post-img img {
         width: 100%;
-        height: fit-content;
+        height: auto;
     }
 
     footer {
