@@ -1,7 +1,13 @@
 const user_Stories = [
-  { name: "fecast...", img: "assets/img/castanhari.jpg" },
-  { name: "casimiro", img: "assets/img/cazé.jpg" },
-  { name: "lucasin...", img: "assets/img/lucas.jpg" },
+  { name: "fecastan...", img: "assets/img/castanhari.jpg" },
+  { name: "casimiro", img: "assets/img/cazeim.jpg" },
+  { name: "sofiasantino", img: "assets/img/sofia.jpeg" },
+  { name: "lucasinut...", img: "assets/img/lucas.jpg" },
+  { name: "bruna16", img: "assets/img/bruna16.jpg" },
+  { name: "justinbieber", img: "assets/img/justin.jpg" },
+  { name: "ma_montel...", img: "assets/img/mamonte.jpg" },
+  { name: "pedroloos", img: "assets/img/pedro los.jpg" },
+  { name: "pedrocalais", img: "assets/img/pedrocalais.jpg" },
 ];
 
 function Storie(props) {
@@ -22,6 +28,9 @@ export default function Stories() {
         {user_Stories.map((user) => (
           <Storie name={user.name} img={user.img} />
         ))}
+      </div>
+      <div class="fow-circle">
+        <ion-icon name="chevron-forward-circle"></ion-icon>
       </div>
     </div>
   );
