@@ -1,4 +1,4 @@
-<div align="center"><img src="https://i.imgur.com/QZ6tsGM.gif"></img></div>
+<div align="center"><img src=""></img></div>
 <hr>
 <h2 align=center>Instagram Model Website with React.Js!</h2>
 <h3 align=center>Front-End Web Project</h3>
